@@ -13,6 +13,7 @@
 <body>
     @include('inc.navbar')
     @include('inc.success')
+    @include('inc.errors')
 <div class="container py-3">
     @yield('content')
 </div>
